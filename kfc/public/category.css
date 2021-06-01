@@ -1,0 +1,86 @@
+.wrapper .content-left{
+    padding-left: 0;
+    margin-top: 40px;
+}
+.wrapper .content-right{
+    padding-right: 0;
+   margin-top: 40px;
+}
+.wrapper .content-left .category{
+    background: #FFFFFF;
+    box-shadow: 7px 4px 7px 1px rgba(0, 0, 0, 0.25);
+    height: 200px;
+}
+.wrapper .content-left .category div img{
+  width: 30px;
+  height: 9px;
+}
+.wrapper .content-left .category h4{
+   margin-left: 20px;
+   padding: 5px;
+font-style: normal;
+font-weight: bold;
+color: #000000;
+  }
+  .wrapper .content-left .category div a{
+ font-style: normal;
+ font-weight: bold;
+ color: #000000;
+ font-size: 17px;                   
+   }
+   .wrapper .content-left .search{
+    background: #FFFFFF;
+    box-shadow: 7px 4px 7px 1px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.wrapper .content-left form{
+ padding: 20px;
+}
+.wrapper .content-left form h5{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;     
+   }
+   .wrapper .content-left form input{
+    padding: 3px;
+    margin-top: 9px;
+    width: 193px;
+    background: #FFFFFF;
+    border: 1px solid #727272;
+    box-sizing: border-box;
+    border-radius: 3px;
+   }
+   .wrapper .content-left form button{
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: #FF6D6D;
+    margin-top: 20px;
+    color: #FFFFFF;
+   }
+   .wrapper .content-right .item{
+    background: #FFFFFF;
+    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.25);
+   }
+   .wrapper .content-right .item h5{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;   
+   }
+   .wrapper .content-right .item p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F01D1D;
+    position: relative;
+    bottom: 5px; 
+   }
+   
+
+   
+   
+
+

@@ -1,0 +1,101 @@
+.wrapper .content .left {
+  height: 450px;
+  background: #fff;
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%), -1px -1px 2px 1px rgb(0 0 0 / 9%);
+}
+
+.wrapper .content .left p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+.wrapper .h2 {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.wrapper .list {
+  padding-left: 1px;
+}
+
+.wrapper .forms {
+  background: #fff;
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 16%), -1px -1px 2px 1px rgb(0 0 0 / 9%);
+  height: 450px;
+
+}
+
+.wrapper .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.wrapper .form .item-form {
+  margin-bottom: 40px;
+}
+
+.wrapper .form .item-form input {
+  width: 350px;
+  background: #FFFFFF;
+  border: 1.5px solid #727272;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.wrapper .form .item-form label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+}
+
+.wrapper .button .button {
+  background: #FF6D6D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  color: #FFFFFF;
+  border: none;
+  padding: 4px;
+  width: 100px;
+}
+
+.wrapper .button button {
+  background: #FF6D6D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  color: #FFFFFF;
+  border: none;
+  padding: 4px;
+  width: 100px;
+}
+
+.wrapper .button {
+  text-align: center
+}
+
+@media screen and (max-width: 768px) {
+
+  .wrapper .form .item-form input {
+    width: 100%;
+  }
+
+  .wrapper .forms {
+    margin-top: 30px;
+  }
+
+  .wrapper .list {
+    padding-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper .form .item-form input {
+    width: 160px;
+  }
+}

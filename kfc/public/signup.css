@@ -1,0 +1,76 @@
+.wrapper .content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    height: 500px;
+    margin-top: 50px;
+}
+
+.wrapper .content .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .content .form .input {
+    width: 450px;
+    background: #FFFFFF;
+    border: 1.5px solid #727272;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.wrapper .content .form label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.wrapper .content .form .form-item {
+    margin-top: 10px;
+}
+
+.wrapper .content .form .email {
+    margin-left: 26px;
+}
+
+.wrapper .content .form .phone-number {
+    margin-left: 24px;
+}
+
+.wrapper .content .button .button {
+    background: #FF6D6D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    color: #FFFFFF;
+    border: none;
+    padding: 4px;
+    width: 100px;
+}
+
+.wrapper .content .button button {
+    background: #FF6D6D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    color: #FFFFFF;
+    border: none;
+    padding: 4px;
+    width: 100px;
+}
+
+.wrapper .content .button {
+    text-align: center
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper .content .form .input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper .content .form .input {
+        width: 176px;
+    }
+}

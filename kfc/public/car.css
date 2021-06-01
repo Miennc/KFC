@@ -1,0 +1,91 @@
+.content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+.content .item .inner{
+    background: #FFFFFF;
+    box-shadow: 3px 4px 7px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.content .item .inner .box-1 img{
+ padding: 7px;
+}
+.content .item .inner .box-2 h4{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+   }
+   .content .item .inner .box-2 .inner-box-2 {
+     margin-top: 5px;
+     
+   }
+   .content .item .inner .box-2 .inner-box-2 .price{
+    color: #FF0000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 5px;
+  }
+  .content .item .inner .box-2 .inner-box-2 .sum{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    color: #000000;
+  }
+
+
+@media screen and (max-width: 767px) {
+    .content .item .inner .box-2 .inner-box-2 .sum {
+        margin-left: 22px;
+       }   
+       .content .item .inner .box-2 .inner-box-2 button{
+        margin-left: 47px;
+       }   
+       .content .item .inner .box-4, .box-3, .box-2 {
+        justify-content: center;
+         display: flex;
+     } 
+}
+   .content .item .inner .box-2 .inner-box-2 .btn-1{
+    background: #FFCE22;
+    border-radius: 5px;
+    border:none;
+    width: 108px;
+    height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+   }
+   .content .item .inner .box-2 .inner-box-2 .btn-2{
+    background: #00F218;
+    border-radius: 5px;
+    border:none;
+    width: 108px;
+    height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+   }
+   .content .item .inner .box-2 .inner-box-2 .btn-3{
+    background: #FF0000;
+    border-radius: 5px;
+    border:none;
+    width: 108px;
+    height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+   }
+   .wrapper .paging {
+    margin-top: 24px;
+    margin-bottom: 35px;
+    margin-left: 7px;
+}
