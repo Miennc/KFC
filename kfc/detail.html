@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="public/home.css">
     <link rel="stylesheet" href="public/detail.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="public/main.js"></script>
 </head>
 
 <body>
@@ -31,40 +32,40 @@
         <!-- header -->
         <div class="container">
             <div class="row">
-                <div class="col-md-12 header">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand lists" href="#">Home</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active list" aria-current="page" href="#">Category</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active list" aria-current="page" href="#">About</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link img" href="#"><img
-                                                src="https://kfcvietnam.com.vn/templates/images/logo_pc.png" alt=""></a>
-                                    </li>
-                                </ul>
-                                <form class="d-flex">
-                                    <li class="nav-item">
-                                        <a class="nav-link active list" aria-current="page" href="#">Login</a>
-                                    </li>
-                                </form>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+              <div class="col-md-12 header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand lists" href="home.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon "onclick="myFunction()"></span>
+                    </button>
+                    <div class="collapse navbar-collapse myLinks" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active list" aria-current="page" href="category.html ">Category</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active list" aria-current="page" href="#">About</a>
+                        </li>
+      
+                        <li class="nav-item">
+                          <a class="nav-link img" href="#"><img src="https://kfcvietnam.com.vn/templates/images/logo_pc.png"
+                              alt=""></a>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <li class="nav-item">
+                          <a class="nav-link active list" aria-current="page" href="login.html">Login</a>
+                        </li>
+                      </form>
+                    </div>
+                  </div>
+                </nav>
+              </div>
             </div>
-        </div>
+          </div>
         <!-- end header -->
         <!-- banner -->
         <div class="container">
@@ -124,40 +125,40 @@
     <!-- footer -->
     <div class="container">
         <div class="row end">
-            <div class="col-md-4 footer">
-                <div class="item-1">
-                    <div>
-                        <img src="https://kfcvietnam.com.vn/templates/images/logo_pc.png" alt="">
-                    </div>
-                    <span><img src="image/face.svg" alt=""></span>
-                    <span><img src="image/insta.svg" alt=""></span>
-                    <span><img src="image/twiter.svg" alt=""></span>
-                </div>
+          <div class="col-md-4 footer">
+            <div class="item-1">
+              <div>
+                <img src="https://kfcvietnam.com.vn/templates/images/logo_pc.png" alt="" class="img">
+              </div>
+              <span><img src="image/face.svg" alt="" ></span>
+              <span><img src="image/insta.svg" alt="" ></span>
+              <span><img src="image/twiter.svg" alt=""></span>
             </div>
-            <div class="col-md-4 footer">
-                <div class="item-2">
-                    <p>
-                        CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM
-
-                        Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.
-
-                        Điện thoại: (028) 38489828
-
-                        Email: lienhe@kfcvietnam.com.vn
-
-                        Mã số thuế: 0100773885
-
-                        Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nội
-                    </p>
-                </div>
+          </div>
+          <div class="col-md-4 footer">
+            <div class="item-2">
+              <p>
+                CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM
+  
+                Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.
+  
+                Điện thoại: (028) 38489828
+  
+                Email: lienhe@kfcvietnam.com.vn
+  
+                Mã số thuế: 0100773885
+  
+                Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nội
+              </p>
             </div>
-            <div class="col-md-4 footer">
-                <div class="item-3">
-                    <img src="image/dk.svg" alt="">
-                </div>
+          </div>
+          <div class="col-md-4 footer">
+            <div class="item-3">
+              <img src="image/dk.svg" alt="">
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     <!-- end footer -->
     </div>
 </body>

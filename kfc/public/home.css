@@ -157,14 +157,13 @@ li {
     height: 50px;
 }
 
-.footer .item-1 div img {
+.footer .item-1 .img {
     margin-left: 45px;
 }
 
 .item-1 {
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: 20px;
 }
 
 .item-2 {
@@ -185,5 +184,16 @@ li {
 .item-3 img {
     width: 220px;
 }
-
+@media screen and (max-width: 768px) {
+    .item-1 {
+        text-align: center;
+    }
+    .footer .item-1 .img {
+      margin-left: 0;
+    }
+    .item-3{
+        justify-content:center;
+    }
+     
+}
 /* end footer */
